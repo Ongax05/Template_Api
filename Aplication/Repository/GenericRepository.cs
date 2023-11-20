@@ -2,7 +2,6 @@ using System.Linq.Expressions;
 using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using Persistence;
 using Persistency;
 namespace Aplication.Repository;
 public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity

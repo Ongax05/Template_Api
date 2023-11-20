@@ -1,6 +1,5 @@
 using Domain.Entities;
 using Domain.Interfaces;
-using Persistence;
 using Persistency;
 
 namespace Aplication.Repository;

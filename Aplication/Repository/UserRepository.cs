@@ -1,7 +1,6 @@
 using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using Persistence;
 using Persistency;
 namespace Aplication.Repository;
 public class UserRepository : GenericRepository<User>, IUserRepository
